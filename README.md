@@ -123,16 +123,6 @@ http://localhost:5173
 - Internacionalização de valores monetários
 - Responsividade e acessibilidade básica
 
-## Próximas melhorias
-
-- Adicionar o design definitivo da interface
-- Incluir uma captura de tela no README
-- Criar tema claro e escuro
-- Adicionar gráfico com o histórico das taxas
-- Permitir seleção de datas anteriores
-- Adicionar testes automatizados
-- Publicar uma versão online
-
 ## Autor
 
 Desenvolvido por **Jefferson Lopes da Silva**.
