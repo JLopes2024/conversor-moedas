@@ -1,6 +1,10 @@
 import { currencies } from "../data/currencies";
 
-function CurrencySelect({ value, onChange }) {
+function CurrencySelect({
+  value,
+  onChange,
+  excludedCurrency,
+}) {
   return (
     <select
       value={value}
@@ -12,6 +16,9 @@ function CurrencySelect({ value, onChange }) {
         <option
           key={currency.code}
           value={currency.code}
+          disabled={
+            currency.code === excludedCurrency
+          }
         >
           {currency.name}
         </option>
