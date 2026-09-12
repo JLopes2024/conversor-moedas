@@ -1,9 +1,4 @@
-import {
-  useEffect,
-  useMemo,
-  useState,
-} from "react";
-
+import {useEffect, useMemo,  useState} from "react";
 import CurrencySelect from "./components/CurrencySelect";
 import { getExchangeRate } from "./services/exchangeApi";
 
